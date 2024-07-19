@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta name="viewport" content="width=device-width">
+<meta charset="utf-8" content-type"text/html">
+<link rel="icon" href="../../../../Resources/icon.png">
+<title>Watch Naruto Shippuden</title>
+<style>
+
+body{
+margin: 0;
+overflow: auto;
+background-color: #333;
+}
+
+div.header_btns{
+background-color: black;
+width: -webkit-fill-available;
+position: relative;
+overflow: auto;
+white-space: nowrap;
+padding: 0;
+}
+
+div.header_btns a{
+display: inline-block;
+color: white;
+padding: 10px;
+text-decoration: none;
+opacity: 0.7;
+transition: opacity 0.4s, background-color 0.2s;
+}
+
+div.header_btns a.bck{
+background-color: red;
+}
+
+div.header_btns a:hover{
+background-color: red;
+opacity: 1;
+}
+
+div.main_vid{
+display: block;
+}
+
+div.main_vid h3{
+position: relative;
+top: 200px;
+text-align: center;
+color: white;
+}
+
+.vid{
+  position: relative;
+  top: 200px;
+  width: 600px;
+  height: 299.2px;
+}
+
+div.main_vid a{
+display: inline;
+justify-content: center;
+align-items: center;
+text-decoration: none;
+text-align: center;
+background-color: red;
+color: white;
+padding: 5px;
+border-width: 1px;
+border-style: solid;
+border-color: red;
+opacity: 0.7;
+transition: opacity 0.2s;
+cursor: default;
+}
+
+div.main_vid a#pre_btn{
+position: relative;
+top: 230px; 
+
+border-radius: 60px 0px 0px 60px;
+}
+
+div.main_vid a#nxt_btn{
+position: relative;
+top: 230px; 
+
+border-radius: 0px 60px 60px 0px;
+}
+
+div.main_vid a:hover{
+opacity: 1;
+}
+
+div.main_epbtn_cont{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+}
+
+div.main_epbtn{
+position: relative;
+overflow-y: scroll;
+height: 500px;
+top: 350px;
+width: -webkit-fill-available;
+display: flex;
+flex-wrap: wrap;
+background-color: grey;
+margin: 20px;
+border-radius: 5px;
+}
+
+div.main_epbtn a{
+text-decoration: none;
+text-align: center;
+color: white;
+background-color: black;
+width: 2%;
+padding: 15px;
+border-radius: 60px;
+height: 20px;
+margin: 5%;
+margin-bottom: 2%;
+cursor: default;
+opacity: 0.7;
+transition: opacity 0.2s;
+}
+
+div.main_epbtn a:hover{
+opacity: 1;
+}
+
+h5{
+position: relative;
+top: 500px;
+color: white;
+text-align: center;
+opacity: 0.5;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="header_btns">
+
+<a href="./naruto-shippuden-info.html" class="bck">BACK</a>
+<a href="../../../../index.html">HOME</a>
+<a href="../../../Contact_Us/index.html">Contact us</a>
+
+</div>
+
+</header>
+
+
+<div class="main_vid">
+<h3 id="ep_name">Naruto Shippuden Episode-1</h3>
+
+
+<center>
+<iframe src="https://gogoanime.org.es/streaming.php?slug=naruto-shippuden-episode-1" frameborder="0" class="vid" id="vid" scrolling="no" allowfullscreen></iframe>
+</center>
+
+<center>
+<a id="pre_btn" onclick="pre_ep_change();">Previous Episode</a>
+<a id="nxt_btn" onclick="nxt_ep_change();">Next Episode</a>
+</center>
+</div>
+
+<p id='pg'></p>
+<div class="main_epbtn_cont">
+<div class="main_epbtn">
+<a id="ep1" onclick="ep_change(1)">1</a><br>
+<a id="ep2" onclick="ep_change(2)">2</a><br>
+<a id="ep3" onclick="ep_change(3)">3</a><br>
+<a id="ep4" onclick="ep_change(4)">4</a><br>
+<a id="ep5" onclick="ep_change(5)">5</a><br>
+<a id="ep6" onclick="ep_change(6)">6</a><br>
+<a id="ep7" onclick="ep_change(7)">7</a><br>
+<a id="ep8" onclick="ep_change(8)">8</a><br>
+<a id="ep9" onclick="ep_change(9)">9</a><br>
+<a id="ep10" onclick="ep_change(10)">10</a><br>
+<a id="ep11" onclick="ep_change(11)">11</a><br>
+<a id="ep12" onclick="ep_change(12)">12</a><br>
+<a id="ep13" onclick="ep_change(13)">13</a><br>
+<a id="ep14" onclick="ep_change(14)">14</a><br>
+<a id="ep15" onclick="ep_change(15)">15</a><br>
+<a id="ep16" onclick="ep_change(16)">16</a><br>
+<a id="ep17" onclick="ep_change(17)">17</a><br>
+<a id="ep18" onclick="ep_change(18)">18</a><br>
+<a id="ep19" onclick="ep_change(19)">19</a><br>
+<a id="ep20" onclick="ep_change(20)">20</a><br>
+<a id="ep21" onclick="ep_change(21)">21</a><br>
+<a id="ep22" onclick="ep_change(22)">22</a><br>
+<a id="ep23" onclick="ep_change(23)">23</a><br>
+<a id="ep24" onclick="ep_change(24)">24</a><br>
+<a id="ep25" onclick="ep_change(25)">25</a><br>
+<a id="ep26" onclick="ep_change(26)">26</a><br>
+<a id="ep27" onclick="ep_change(27)">27</a><br>
+<a id="ep28" onclick="ep_change(28)">28</a><br>
+<a id="ep29" onclick="ep_change(29)">29</a><br>
+<a id="ep30" onclick="ep_change(30)">30</a><br>
+<a id="ep31" onclick="ep_change(31)">31</a><br>
+<a id="ep32" onclick="ep_change(32)">32</a><br>
+<a id="ep33" onclick="ep_change(33)">33</a><br>
+<a id="ep34" onclick="ep_change(34)">34</a><br>
+<a id="ep35" onclick="ep_change(35)">35</a><br>
+<a id="ep36" onclick="ep_change(36)">36</a><br>
+<a id="ep37" onclick="ep_change(37)">37</a><br>
+<a id="ep38" onclick="ep_change(38)">38</a><br>
+<a id="ep39" onclick="ep_change(39)">39</a><br>
+<a id="ep40" onclick="ep_change(40)">40</a><br>
+<a id="ep41" onclick="ep_change(41)">41</a><br>
+<a id="ep42" onclick="ep_change(42)">42</a><br>
+<a id="ep43" onclick="ep_change(43)">43</a><br>
+<a id="ep44" onclick="ep_change(44)">44</a><br>
+<a id="ep45" onclick="ep_change(45)">45</a><br>
+<a id="ep46" onclick="ep_change(46)">46</a><br>
+<a id="ep47" onclick="ep_change(47)">47</a><br>
+<a id="ep48" onclick="ep_change(48)">48</a><br>
+<a id="ep49" onclick="ep_change(49)">49</a><br>
+<a id="ep50" onclick="ep_change(50)">50</a><br>
+<a id="ep51" onclick="ep_change(51)">51</a><br>
+<a id="ep52" onclick="ep_change(52)">52</a><br>
+<a id="ep53" onclick="ep_change(53)">53</a><br>
+<a id="ep54" onclick="ep_change(54)">54</a><br>
+<a id="ep55" onclick="ep_change(55)">55</a><br>
+<a id="ep56" onclick="ep_change(56)">56</a><br>
+<a id="ep57" onclick="ep_change(57)">57</a><br>
+<a id="ep58" onclick="ep_change(58)">58</a><br>
+<a id="ep59" onclick="ep_change(59)">59</a><br>
+<a id="ep60" onclick="ep_change(60)">60</a><br>
+<a id="ep61" onclick="ep_change(61)">61</a><br>
+<a id="ep62" onclick="ep_change(62)">62</a><br>
+<a id="ep63" onclick="ep_change(63)">63</a><br>
+<a id="ep64" onclick="ep_change(64)">64</a><br>
+<a id="ep65" onclick="ep_change(65)">65</a><br>
+<a id="ep66" onclick="ep_change(66)">66</a><br>
+<a id="ep67" onclick="ep_change(67)">67</a><br>
+<a id="ep68" onclick="ep_change(68)">68</a><br>
+<a id="ep69" onclick="ep_change(69)">69</a><br>
+<a id="ep70" onclick="ep_change(70)">70</a><br>
+<a id="ep71" onclick="ep_change(71)">71</a><br>
+<a id="ep72" onclick="ep_change(72)">72</a><br>
+<a id="ep73" onclick="ep_change(73)">73</a><br>
+<a id="ep74" onclick="ep_change(74)">74</a><br>
+<a id="ep75" onclick="ep_change(75)">75</a><br>
+<a id="ep76" onclick="ep_change(76)">76</a><br>
+<a id="ep77" onclick="ep_change(77)">77</a><br>
+<a id="ep78" onclick="ep_change(78)">78</a><br>
+<a id="ep79" onclick="ep_change(79)">79</a><br>
+<a id="ep80" onclick="ep_change(80)">80</a><br>
+<a id="ep81" onclick="ep_change(81)">81</a><br>
+<a id="ep82" onclick="ep_change(82)">82</a><br>
+<a id="ep83" onclick="ep_change(83)">83</a><br>
+<a id="ep84" onclick="ep_change(84)">84</a><br>
+<a id="ep85" onclick="ep_change(85)">85</a><br>
+<a id="ep86" onclick="ep_change(86)">86</a><br>
+<a id="ep87" onclick="ep_change(87)">87</a><br>
+<a id="ep88" onclick="ep_change(88)">88</a><br>
+<a id="ep89" onclick="ep_change(89)">89</a><br>
+<a id="ep90" onclick="ep_change(90)">90</a><br>
+<a id="ep91" onclick="ep_change(91)">91</a><br>
+<a id="ep92" onclick="ep_change(92)">92</a><br>
+<a id="ep93" onclick="ep_change(93)">93</a><br>
+<a id="ep94" onclick="ep_change(94)">94</a><br>
+<a id="ep95" onclick="ep_change(95)">95</a><br>
+<a id="ep96" onclick="ep_change(96)">96</a><br>
+<a id="ep97" onclick="ep_change(97)">97</a><br>
+<a id="ep98" onclick="ep_change(98)">98</a><br>
+<a id="ep99" onclick="ep_change(99)">99</a><br>
+<a id="ep100" onclick="ep_change(100)">100</a><br>
+<a id="ep101" onclick="ep_change(101)">101</a><br>
+<a id="ep102" onclick="ep_change(102)">102</a><br>
+<a id="ep103" onclick="ep_change(103)">103</a><br>
+<a id="ep104" onclick="ep_change(104)">104</a><br>
+<a id="ep105" onclick="ep_change(105)">105</a><br>
+<a id="ep106" onclick="ep_change(106)">106</a><br>
+<a id="ep107" onclick="ep_change(107)">107</a><br>
+<a id="ep108" onclick="ep_change(108)">108</a><br>
+<a id="ep109" onclick="ep_change(109)">109</a><br>
+<a id="ep110" onclick="ep_change(110)">110</a><br>
+<a id="ep111" onclick="ep_change(111)">111</a><br>
+<a id="ep112" onclick="ep_change(112)">112</a><br>
+<a id="ep113" onclick="ep_change(113)">113</a><br>
+<a id="ep114" onclick="ep_change(114)">114</a><br>
+<a id="ep115" onclick="ep_change(115)">115</a><br>
+<a id="ep116" onclick="ep_change(116)">116</a><br>
+<a id="ep117" onclick="ep_change(117)">117</a><br>
+<a id="ep118" onclick="ep_change(118)">118</a><br>
+<a id="ep119" onclick="ep_change(119)">119</a><br>
+<a id="ep120" onclick="ep_change(120)">120</a><br>
+<a id="ep121" onclick="ep_change(121)">121</a><br>
+<a id="ep122" onclick="ep_change(122)">122</a><br>
+<a id="ep123" onclick="ep_change(123)">123</a><br>
+<a id="ep124" onclick="ep_change(124)">124</a><br>
+<a id="ep125" onclick="ep_change(125)">125</a><br>
+<a id="ep126" onclick="ep_change(126)">126</a><br>
+<a id="ep127" onclick="ep_change(127)">127</a><br>
+<a id="ep128" onclick="ep_change(128)">128</a><br>
+<a id="ep129" onclick="ep_change(129)">129</a><br>
+<a id="ep130" onclick="ep_change(130)">130</a><br>
+<a id="ep131" onclick="ep_change(131)">131</a><br>
+<a id="ep132" onclick="ep_change(132)">132</a><br>
+<a id="ep133" onclick="ep_change(133)">133</a><br>
+<a id="ep134" onclick="ep_change(134)">134</a><br>
+<a id="ep135" onclick="ep_change(135)">135</a><br>
+<a id="ep136" onclick="ep_change(136)">136</a><br>
+<a id="ep137" onclick="ep_change(137)">137</a><br>
+<a id="ep138" onclick="ep_change(138)">138</a><br>
+<a id="ep139" onclick="ep_change(139)">139</a><br>
+<a id="ep140" onclick="ep_change(140)">140</a><br>
+<a id="ep141" onclick="ep_change(141)">141</a><br>
+<a id="ep142" onclick="ep_change(142)">142</a><br>
+<a id="ep143" onclick="ep_change(143)">143</a><br>
+<a id="ep144" onclick="ep_change(144)">144</a><br>
+<a id="ep145" onclick="ep_change(145)">145</a><br>
+<a id="ep146" onclick="ep_change(146)">146</a><br>
+<a id="ep147" onclick="ep_change(147)">147</a><br>
+<a id="ep148" onclick="ep_change(148)">148</a><br>
+<a id="ep149" onclick="ep_change(149)">149</a><br>
+<a id="ep150" onclick="ep_change(150)">150</a><br>
+<a id="ep151" onclick="ep_change(151)">151</a><br>
+<a id="ep152" onclick="ep_change(152)">152</a><br>
+<a id="ep153" onclick="ep_change(153)">153</a><br>
+<a id="ep154" onclick="ep_change(154)">154</a><br>
+<a id="ep155" onclick="ep_change(155)">155</a><br>
+<a id="ep156" onclick="ep_change(156)">156</a><br>
+<a id="ep157" onclick="ep_change(157)">157</a><br>
+<a id="ep158" onclick="ep_change(158)">158</a><br>
+<a id="ep159" onclick="ep_change(159)">159</a><br>
+<a id="ep160" onclick="ep_change(160)">160</a><br>
+<a id="ep161" onclick="ep_change(161)">161</a><br>
+<a id="ep162" onclick="ep_change(162)">162</a><br>
+<a id="ep163" onclick="ep_change(163)">163</a><br>
+<a id="ep164" onclick="ep_change(164)">164</a><br>
+<a id="ep165" onclick="ep_change(165)">165</a><br>
+<a id="ep166" onclick="ep_change(166)">166</a><br>
+<a id="ep167" onclick="ep_change(167)">167</a><br>
+<a id="ep168" onclick="ep_change(168)">168</a><br>
+<a id="ep169" onclick="ep_change(169)">169</a><br>
+<a id="ep170" onclick="ep_change(170)">170</a><br>
+<a id="ep171" onclick="ep_change(171)">171</a><br>
+<a id="ep172" onclick="ep_change(172)">172</a><br>
+<a id="ep173" onclick="ep_change(173)">173</a><br>
+<a id="ep174" onclick="ep_change(174)">174</a><br>
+<a id="ep175" onclick="ep_change(175)">175</a><br>
+<a id="ep176" onclick="ep_change(176)">176</a><br>
+<a id="ep177" onclick="ep_change(177)">177</a><br>
+<a id="ep178" onclick="ep_change(178)">178</a><br>
+<a id="ep179" onclick="ep_change(179)">179</a><br>
+<a id="ep180" onclick="ep_change(180)">180</a><br>
+<a id="ep181" onclick="ep_change(181)">181</a><br>
+<a id="ep182" onclick="ep_change(182)">182</a><br>
+<a id="ep183" onclick="ep_change(183)">183</a><br>
+<a id="ep184" onclick="ep_change(184)">184</a><br>
+<a id="ep185" onclick="ep_change(185)">185</a><br>
+<a id="ep186" onclick="ep_change(186)">186</a><br>
+<a id="ep187" onclick="ep_change(187)">187</a><br>
+<a id="ep188" onclick="ep_change(188)">188</a><br>
+<a id="ep189" onclick="ep_change(189)">189</a><br>
+<a id="ep190" onclick="ep_change(190)">190</a><br>
+<a id="ep191" onclick="ep_change(191)">191</a><br>
+<a id="ep192" onclick="ep_change(192)">192</a><br>
+<a id="ep193" onclick="ep_change(193)">193</a><br>
+<a id="ep194" onclick="ep_change(194)">194</a><br>
+<a id="ep195" onclick="ep_change(195)">195</a><br>
+<a id="ep196" onclick="ep_change(196)">196</a><br>
+<a id="ep197" onclick="ep_change(197)">197</a><br>
+<a id="ep198" onclick="ep_change(198)">198</a><br>
+<a id="ep199" onclick="ep_change(199)">199</a><br>
+<a id="ep200" onclick="ep_change(200)">200</a><br>
+<a id="ep201" onclick="ep_change(201)">201</a><br>
+<a id="ep202" onclick="ep_change(202)">202</a><br>
+<a id="ep203" onclick="ep_change(203)">203</a><br>
+<a id="ep204" onclick="ep_change(204)">204</a><br>
+<a id="ep205" onclick="ep_change(205)">205</a><br>
+<a id="ep206" onclick="ep_change(206)">206</a><br>
+<a id="ep207" onclick="ep_change(207)">207</a><br>
+<a id="ep208" onclick="ep_change(208)">208</a><br>
+<a id="ep209" onclick="ep_change(209)">209</a><br>
+<a id="ep210" onclick="ep_change(210)">210</a><br>
+<a id="ep211" onclick="ep_change(211)">211</a><br>
+<a id="ep212" onclick="ep_change(212)">212</a><br>
+<a id="ep213" onclick="ep_change(213)">213</a><br>
+<a id="ep214" onclick="ep_change(214)">214</a><br>
+<a id="ep215" onclick="ep_change(215)">215</a><br>
+<a id="ep216" onclick="ep_change(216)">216</a><br>
+<a id="ep217" onclick="ep_change(217)">217</a><br>
+<a id="ep218" onclick="ep_change(218)">218</a><br>
+<a id="ep219" onclick="ep_change(219)">219</a><br>
+<a id="ep220" onclick="ep_change(220)">220</a><br>
+<a id="ep221" onclick="ep_change(221)">221</a><br>
+<a id="ep222" onclick="ep_change(222)">222</a><br>
+<a id="ep223" onclick="ep_change(223)">223</a><br>
+<a id="ep224" onclick="ep_change(224)">224</a><br>
+<a id="ep225" onclick="ep_change(225)">225</a><br>
+<a id="ep226" onclick="ep_change(226)">226</a><br>
+<a id="ep227" onclick="ep_change(227)">227</a><br>
+<a id="ep228" onclick="ep_change(228)">228</a><br>
+<a id="ep229" onclick="ep_change(229)">229</a><br>
+<a id="ep230" onclick="ep_change(230)">230</a><br>
+<a id="ep231" onclick="ep_change(231)">231</a><br>
+<a id="ep232" onclick="ep_change(232)">232</a><br>
+<a id="ep233" onclick="ep_change(233)">233</a><br>
+<a id="ep234" onclick="ep_change(234)">234</a><br>
+<a id="ep235" onclick="ep_change(235)">235</a><br>
+<a id="ep236" onclick="ep_change(236)">236</a><br>
+<a id="ep237" onclick="ep_change(237)">237</a><br>
+<a id="ep238" onclick="ep_change(238)">238</a><br>
+<a id="ep239" onclick="ep_change(239)">239</a><br>
+<a id="ep240" onclick="ep_change(240)">240</a><br>
+<a id="ep241" onclick="ep_change(241)">241</a><br>
+<a id="ep242" onclick="ep_change(242)">242</a><br>
+<a id="ep243" onclick="ep_change(243)">243</a><br>
+<a id="ep244" onclick="ep_change(244)">244</a><br>
+<a id="ep245" onclick="ep_change(245)">245</a><br>
+<a id="ep246" onclick="ep_change(246)">246</a><br>
+<a id="ep247" onclick="ep_change(247)">247</a><br>
+<a id="ep248" onclick="ep_change(248)">248</a><br>
+<a id="ep249" onclick="ep_change(249)">249</a><br>
+<a id="ep250" onclick="ep_change(250)">250</a><br>
+<a id="ep251" onclick="ep_change(251)">251</a><br>
+<a id="ep252" onclick="ep_change(252)">252</a><br>
+<a id="ep253" onclick="ep_change(253)">253</a><br>
+<a id="ep254" onclick="ep_change(254)">254</a><br>
+<a id="ep255" onclick="ep_change(255)">255</a><br>
+<a id="ep256" onclick="ep_change(256)">256</a><br>
+<a id="ep257" onclick="ep_change(257)">257</a><br>
+<a id="ep258" onclick="ep_change(258)">258</a><br>
+<a id="ep259" onclick="ep_change(259)">259</a><br>
+<a id="ep260" onclick="ep_change(260)">260</a><br>
+<a id="ep261" onclick="ep_change(261)">261</a><br>
+<a id="ep262" onclick="ep_change(262)">262</a><br>
+<a id="ep263" onclick="ep_change(263)">263</a><br>
+<a id="ep264" onclick="ep_change(264)">264</a><br>
+<a id="ep265" onclick="ep_change(265)">265</a><br>
+<a id="ep266" onclick="ep_change(266)">266</a><br>
+<a id="ep267" onclick="ep_change(267)">267</a><br>
+<a id="ep268" onclick="ep_change(268)">268</a><br>
+<a id="ep269" onclick="ep_change(269)">269</a><br>
+<a id="ep270" onclick="ep_change(270)">270</a><br>
+<a id="ep271" onclick="ep_change(271)">271</a><br>
+<a id="ep272" onclick="ep_change(272)">272</a><br>
+<a id="ep273" onclick="ep_change(273)">273</a><br>
+<a id="ep274" onclick="ep_change(274)">274</a><br>
+<a id="ep275" onclick="ep_change(275)">275</a><br>
+<a id="ep276" onclick="ep_change(276)">276</a><br>
+<a id="ep277" onclick="ep_change(277)">277</a><br>
+<a id="ep278" onclick="ep_change(278)">278</a><br>
+<a id="ep279" onclick="ep_change(279)">279</a><br>
+<a id="ep280" onclick="ep_change(280)">280</a><br>
+<a id="ep281" onclick="ep_change(281)">281</a><br>
+<a id="ep282" onclick="ep_change(282)">282</a><br>
+<a id="ep283" onclick="ep_change(283)">283</a><br>
+<a id="ep284" onclick="ep_change(284)">284</a><br>
+<a id="ep285" onclick="ep_change(285)">285</a><br>
+<a id="ep286" onclick="ep_change(286)">286</a><br>
+<a id="ep287" onclick="ep_change(287)">287</a><br>
+<a id="ep288" onclick="ep_change(288)">288</a><br>
+<a id="ep289" onclick="ep_change(289)">289</a><br>
+<a id="ep290" onclick="ep_change(290)">290</a><br>
+<a id="ep291" onclick="ep_change(291)">291</a><br>
+<a id="ep292" onclick="ep_change(292)">292</a><br>
+<a id="ep293" onclick="ep_change(293)">293</a><br>
+<a id="ep294" onclick="ep_change(294)">294</a><br>
+<a id="ep295" onclick="ep_change(295)">295</a><br>
+<a id="ep296" onclick="ep_change(296)">296</a><br>
+<a id="ep297" onclick="ep_change(297)">297</a><br>
+<a id="ep298" onclick="ep_change(298)">298</a><br>
+<a id="ep299" onclick="ep_change(299)">299</a><br>
+<a id="ep300" onclick="ep_change(300)">300</a><br>
+<a id="ep301" onclick="ep_change(301)">301</a><br>
+<a id="ep302" onclick="ep_change(302)">302</a><br>
+<a id="ep303" onclick="ep_change(303)">303</a><br>
+<a id="ep304" onclick="ep_change(304)">304</a><br>
+<a id="ep305" onclick="ep_change(305)">305</a><br>
+<a id="ep306" onclick="ep_change(306)">306</a><br>
+<a id="ep307" onclick="ep_change(307)">307</a><br>
+<a id="ep308" onclick="ep_change(308)">308</a><br>
+<a id="ep309" onclick="ep_change(309)">309</a><br>
+<a id="ep310" onclick="ep_change(310)">310</a><br>
+<a id="ep311" onclick="ep_change(311)">311</a><br>
+<a id="ep312" onclick="ep_change(312)">312</a><br>
+<a id="ep313" onclick="ep_change(313)">313</a><br>
+<a id="ep314" onclick="ep_change(314)">314</a><br>
+<a id="ep315" onclick="ep_change(315)">315</a><br>
+<a id="ep316" onclick="ep_change(316)">316</a><br>
+<a id="ep317" onclick="ep_change(317)">317</a><br>
+<a id="ep318" onclick="ep_change(318)">318</a><br>
+<a id="ep319" onclick="ep_change(319)">319</a><br>
+<a id="ep320" onclick="ep_change(320)">320</a><br>
+<a id="ep321" onclick="ep_change(321)">321</a><br>
+<a id="ep322" onclick="ep_change(322)">322</a><br>
+<a id="ep323" onclick="ep_change(323)">323</a><br>
+<a id="ep324" onclick="ep_change(324)">324</a><br>
+<a id="ep325" onclick="ep_change(325)">325</a><br>
+<a id="ep326" onclick="ep_change(326)">326</a><br>
+<a id="ep327" onclick="ep_change(327)">327</a><br>
+<a id="ep328" onclick="ep_change(328)">328</a><br>
+<a id="ep329" onclick="ep_change(329)">329</a><br>
+<a id="ep330" onclick="ep_change(330)">330</a><br>
+<a id="ep331" onclick="ep_change(331)">331</a><br>
+<a id="ep332" onclick="ep_change(332)">332</a><br>
+<a id="ep333" onclick="ep_change(333)">333</a><br>
+<a id="ep334" onclick="ep_change(334)">334</a><br>
+<a id="ep335" onclick="ep_change(335)">335</a><br>
+<a id="ep336" onclick="ep_change(336)">336</a><br>
+<a id="ep337" onclick="ep_change(337)">337</a><br>
+<a id="ep338" onclick="ep_change(338)">338</a><br>
+<a id="ep339" onclick="ep_change(339)">339</a><br>
+<a id="ep340" onclick="ep_change(340)">340</a><br>
+<a id="ep341" onclick="ep_change(341)">341</a><br>
+<a id="ep342" onclick="ep_change(342)">342</a><br>
+<a id="ep343" onclick="ep_change(343)">343</a><br>
+<a id="ep344" onclick="ep_change(344)">344</a><br>
+<a id="ep345" onclick="ep_change(345)">345</a><br>
+<a id="ep346" onclick="ep_change(346)">346</a><br>
+<a id="ep347" onclick="ep_change(347)">347</a><br>
+<a id="ep348" onclick="ep_change(348)">348</a><br>
+<a id="ep349" onclick="ep_change(349)">349</a><br>
+<a id="ep350" onclick="ep_change(350)">350</a><br>
+<a id="ep351" onclick="ep_change(351)">351</a><br>
+<a id="ep352" onclick="ep_change(352)">352</a><br>
+<a id="ep353" onclick="ep_change(353)">353</a><br>
+<a id="ep354" onclick="ep_change(354)">354</a><br>
+<a id="ep355" onclick="ep_change(355)">355</a><br>
+<a id="ep356" onclick="ep_change(356)">356</a><br>
+<a id="ep357" onclick="ep_change(357)">357</a><br>
+<a id="ep358" onclick="ep_change(358)">358</a><br>
+<a id="ep359" onclick="ep_change(359)">359</a><br>
+<a id="ep360" onclick="ep_change(360)">360</a><br>
+<a id="ep361" onclick="ep_change(361)">361</a><br>
+<a id="ep362" onclick="ep_change(362)">362</a><br>
+<a id="ep363" onclick="ep_change(363)">363</a><br>
+<a id="ep364" onclick="ep_change(364)">364</a><br>
+<a id="ep365" onclick="ep_change(365)">365</a><br>
+<a id="ep366" onclick="ep_change(366)">366</a><br>
+<a id="ep367" onclick="ep_change(367)">367</a><br>
+<a id="ep368" onclick="ep_change(368)">368</a><br>
+<a id="ep369" onclick="ep_change(369)">369</a><br>
+<a id="ep370" onclick="ep_change(370)">370</a><br>
+<a id="ep371" onclick="ep_change(371)">371</a><br>
+<a id="ep372" onclick="ep_change(372)">372</a><br>
+<a id="ep373" onclick="ep_change(373)">373</a><br>
+<a id="ep374" onclick="ep_change(374)">374</a><br>
+<a id="ep375" onclick="ep_change(375)">375</a><br>
+<a id="ep376" onclick="ep_change(376)">376</a><br>
+<a id="ep377" onclick="ep_change(377)">377</a><br>
+<a id="ep378" onclick="ep_change(378)">378</a><br>
+<a id="ep379" onclick="ep_change(379)">379</a><br>
+<a id="ep380" onclick="ep_change(380)">380</a><br>
+<a id="ep381" onclick="ep_change(381)">381</a><br>
+<a id="ep382" onclick="ep_change(382)">382</a><br>
+<a id="ep383" onclick="ep_change(383)">383</a><br>
+<a id="ep384" onclick="ep_change(384)">384</a><br>
+<a id="ep385" onclick="ep_change(385)">385</a><br>
+<a id="ep386" onclick="ep_change(386)">386</a><br>
+<a id="ep387" onclick="ep_change(387)">387</a><br>
+<a id="ep388" onclick="ep_change(388)">388</a><br>
+<a id="ep389" onclick="ep_change(389)">389</a><br>
+<a id="ep390" onclick="ep_change(390)">390</a><br>
+<a id="ep391" onclick="ep_change(391)">391</a><br>
+<a id="ep392" onclick="ep_change(392)">392</a><br>
+<a id="ep393" onclick="ep_change(393)">393</a><br>
+<a id="ep394" onclick="ep_change(394)">394</a><br>
+<a id="ep395" onclick="ep_change(395)">395</a><br>
+<a id="ep396" onclick="ep_change(396)">396</a><br>
+<a id="ep397" onclick="ep_change(397)">397</a><br>
+<a id="ep398" onclick="ep_change(398)">398</a><br>
+<a id="ep399" onclick="ep_change(399)">399</a><br>
+<a id="ep400" onclick="ep_change(400)">400</a><br>
+<a id="ep401" onclick="ep_change(401)">401</a><br>
+<a id="ep402" onclick="ep_change(402)">402</a><br>
+<a id="ep403" onclick="ep_change(403)">403</a><br>
+<a id="ep404" onclick="ep_change(404)">404</a><br>
+<a id="ep405" onclick="ep_change(405)">405</a><br>
+<a id="ep406" onclick="ep_change(406)">406</a><br>
+<a id="ep407" onclick="ep_change(407)">407</a><br>
+<a id="ep408" onclick="ep_change(408)">408</a><br>
+<a id="ep409" onclick="ep_change(409)">409</a><br>
+<a id="ep410" onclick="ep_change(410)">410</a><br>
+<a id="ep411" onclick="ep_change(411)">411</a><br>
+<a id="ep412" onclick="ep_change(412)">412</a><br>
+<a id="ep413" onclick="ep_change(413)">413</a><br>
+<a id="ep414" onclick="ep_change(414)">414</a><br>
+<a id="ep415" onclick="ep_change(415)">415</a><br>
+<a id="ep416" onclick="ep_change(416)">416</a><br>
+<a id="ep417" onclick="ep_change(417)">417</a><br>
+<a id="ep418" onclick="ep_change(418)">418</a><br>
+<a id="ep419" onclick="ep_change(419)">419</a><br>
+<a id="ep420" onclick="ep_change(420)">420</a><br>
+<a id="ep421" onclick="ep_change(421)">421</a><br>
+<a id="ep422" onclick="ep_change(422)">422</a><br>
+<a id="ep423" onclick="ep_change(423)">423</a><br>
+<a id="ep424" onclick="ep_change(424)">424</a><br>
+<a id="ep425" onclick="ep_change(425)">425</a><br>
+<a id="ep426" onclick="ep_change(426)">426</a><br>
+<a id="ep427" onclick="ep_change(427)">427</a><br>
+<a id="ep428" onclick="ep_change(428)">428</a><br>
+<a id="ep429" onclick="ep_change(429)">429</a><br>
+<a id="ep430" onclick="ep_change(430)">430</a><br>
+<a id="ep431" onclick="ep_change(431)">431</a><br>
+<a id="ep432" onclick="ep_change(432)">432</a><br>
+<a id="ep433" onclick="ep_change(433)">433</a><br>
+<a id="ep434" onclick="ep_change(434)">434</a><br>
+<a id="ep435" onclick="ep_change(435)">435</a><br>
+<a id="ep436" onclick="ep_change(436)">436</a><br>
+<a id="ep437" onclick="ep_change(437)">437</a><br>
+<a id="ep438" onclick="ep_change(438)">438</a><br>
+<a id="ep439" onclick="ep_change(439)">439</a><br>
+<a id="ep440" onclick="ep_change(440)">440</a><br>
+<a id="ep441" onclick="ep_change(441)">441</a><br>
+<a id="ep442" onclick="ep_change(442)">442</a><br>
+<a id="ep443" onclick="ep_change(443)">443</a><br>
+<a id="ep444" onclick="ep_change(444)">444</a><br>
+<a id="ep445" onclick="ep_change(445)">445</a><br>
+<a id="ep446" onclick="ep_change(446)">446</a><br>
+<a id="ep447" onclick="ep_change(447)">447</a><br>
+<a id="ep448" onclick="ep_change(448)">448</a><br>
+<a id="ep449" onclick="ep_change(449)">449</a><br>
+<a id="ep450" onclick="ep_change(450)">450</a><br>
+<a id="ep451" onclick="ep_change(451)">451</a><br>
+<a id="ep452" onclick="ep_change(452)">452</a><br>
+<a id="ep453" onclick="ep_change(453)">453</a><br>
+<a id="ep454" onclick="ep_change(454)">454</a><br>
+<a id="ep455" onclick="ep_change(455)">455</a><br>
+<a id="ep456" onclick="ep_change(456)">456</a><br>
+<a id="ep457" onclick="ep_change(457)">457</a><br>
+<a id="ep458" onclick="ep_change(458)">458</a><br>
+<a id="ep459" onclick="ep_change(459)">459</a><br>
+<a id="ep460" onclick="ep_change(460)">460</a><br>
+<a id="ep461" onclick="ep_change(461)">461</a><br>
+<a id="ep462" onclick="ep_change(462)">462</a><br>
+<a id="ep463" onclick="ep_change(463)">463</a><br>
+<a id="ep464" onclick="ep_change(464)">464</a><br>
+<a id="ep465" onclick="ep_change(465)">465</a><br>
+<a id="ep466" onclick="ep_change(466)">466</a><br>
+<a id="ep467" onclick="ep_change(467)">467</a><br>
+<a id="ep468" onclick="ep_change(468)">468</a><br>
+<a id="ep469" onclick="ep_change(469)">469</a><br>
+<a id="ep470" onclick="ep_change(470)">470</a><br>
+<a id="ep471" onclick="ep_change(471)">471</a><br>
+<a id="ep472" onclick="ep_change(472)">472</a><br>
+<a id="ep473" onclick="ep_change(473)">473</a><br>
+<a id="ep474" onclick="ep_change(474)">474</a><br>
+<a id="ep475" onclick="ep_change(475)">475</a><br>
+<a id="ep476" onclick="ep_change(476)">476</a><br>
+<a id="ep477" onclick="ep_change(477)">477</a><br>
+<a id="ep478" onclick="ep_change(478)">478</a><br>
+<a id="ep479" onclick="ep_change(479)">479</a><br>
+<a id="ep480" onclick="ep_change(480)">480</a><br>
+<a id="ep481" onclick="ep_change(481)">481</a><br>
+<a id="ep482" onclick="ep_change(482)">482</a><br>
+<a id="ep483" onclick="ep_change(483)">483</a><br>
+<a id="ep484" onclick="ep_change(484)">484</a><br>
+<a id="ep485" onclick="ep_change(485)">485</a><br>
+<a id="ep486" onclick="ep_change(486)">486</a><br>
+<a id="ep487" onclick="ep_change(487)">487</a><br>
+<a id="ep488" onclick="ep_change(488)">488</a><br>
+<a id="ep489" onclick="ep_change(489)">489</a><br>
+<a id="ep490" onclick="ep_change(490)">490</a><br>
+<a id="ep491" onclick="ep_change(491)">491</a><br>
+<a id="ep492" onclick="ep_change(492)">492</a><br>
+<a id="ep493" onclick="ep_change(493)">493</a><br>
+<a id="ep494" onclick="ep_change(494)">494</a><br>
+<a id="ep495" onclick="ep_change(495)">495</a><br>
+<a id="ep496" onclick="ep_change(496)">496</a><br>
+<a id="ep497" onclick="ep_change(497)">497</a><br>
+<a id="ep498" onclick="ep_change(498)">498</a><br>
+<a id="ep499" onclick="ep_change(499)">499</a><br>
+<a id="ep500" onclick="ep_change(500)">500</a>
+</div>
+
+<footer>
+
+<h5>This website is Made By: snragul</h5>
+
+</footer>
+
+<script>
+var max_ep=12;
+var cur_epid="ep1";
+var cur_epidvar=document.getElementById("ep1");
+cur_epidvar.style.backgroundColor="red";
+
+function pre_ep_change(){
+if(max_check()){
+var cur_ep=parseInt(cur_epid.slice(2,));
+var tpre_ep=cur_ep-1;
+ep_change(tpre_ep);
+}
+else{
+}
+}
+
+function nxt_ep_change(){
+if(max_check()){
+var cur_ep=parseInt(cur_epid.slice(2,));
+var tnxt_ep=cur_ep+1;
+ep_change(tnxt_ep);
+}
+else{
+}
+}
+
+function max_check(){
+if(max_ep>=parseInt(cur_epid.slice(2,))){
+return "True";
+}
+else{
+return "False";
+}
+}
+
+function ep_change(ep_no){
+pre_epid=cur_epid;
+cur_epid="ep"+ep_no;
+
+var cur_epidvar=document.getElementById(cur_epid);
+var pre_epidvar=document.getElementById(pre_epid);
+
+
+var vid=document.getElementById('vid');
+vid.setAttribute('src','https://gogoanime.org.es/streaming.php?slug=naruto-shippuden-episode-'+cur_epid.slice(2,));
+
+
+
+pre_epidvar.style.backgroundColor="black";
+cur_epidvar.style.backgroundColor="red";
+document.getElementById("ep_name").innerHTML="Naruto Shippuden Episode-"+cur_epid.slice(2,);
+}
+
+</script>
+
+</body>
+
+</html>

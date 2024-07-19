@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta name="viewport" content="width=device-width">
+<meta charset="utf-8" content-type"text/html">
+<link rel="icon" href="../../../../Resources/icon.png">
+<title>Watch Demon Slayer: Kimetsu no Yaiba</title>
+<style>
+
+body{
+margin: 0;
+overflow: auto;
+background-color: #333;
+}
+
+div.header_btns{
+background-color: black;
+width: -webkit-fill-available;
+position: relative;
+overflow: auto;
+white-space: nowrap;
+padding: 0;
+}
+
+div.header_btns a{
+display: inline-block;
+color: white;
+padding: 10px;
+text-decoration: none;
+opacity: 0.7;
+transition: opacity 0.4s, background-color 0.2s;
+}
+
+div.header_btns a.bck{
+background-color: red;
+}
+
+div.header_btns a:hover{
+background-color: red;
+opacity: 1;
+}
+
+div.main_vid{
+display: block;
+}
+
+div.main_vid h3{
+position: relative;
+top: 200px;
+text-align: center;
+color: white;
+}
+
+.vid{
+  position: relative;
+  top: 200px;
+  width: 600px;
+  height: 299.2px;
+}
+
+div.main_vid a{
+display: inline;
+justify-content: center;
+align-items: center;
+text-decoration: none;
+text-align: center;
+background-color: red;
+color: white;
+padding: 5px;
+border-width: 1px;
+border-style: solid;
+border-color: red;
+opacity: 0.7;
+transition: opacity 0.2s;
+cursor: default;
+}
+
+div.main_vid a#pre_btn{
+position: relative;
+top: 230px; 
+
+border-radius: 60px 0px 0px 60px;
+}
+
+div.main_vid a#nxt_btn{
+position: relative;
+top: 230px; 
+
+border-radius: 0px 60px 60px 0px;
+}
+
+div.main_vid a:hover{
+opacity: 1;
+}
+
+div.main_epbtn{
+position: relative;
+top: 350px;
+width: -webkit-fill-available;
+display: flex;
+flex-wrap: wrap;
+background-color: grey;
+margin: 20px;
+border-radius: 5px;
+}
+
+div.main_epbtn a{
+text-decoration: none;
+text-align: center;
+color: white;
+background-color: black;
+width: 2%;
+padding: 15px;
+border-radius: 30px;
+margin-right: 10% ;
+margin-left: 10%;
+margin-top: 2%;
+margin-bottom: 2%;
+cursor: default;
+opacity: 0.7;
+transition: opacity 0.2s;
+}
+
+div.main_epbtn a:hover{
+opacity: 1;
+}
+
+h5{
+position: relative;
+top: 500px;
+color: white;
+text-align: center;
+opacity: 0.5;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="header_btns">
+
+<a href="./demon-slayer-season-1-info.html" class="bck">BACK</a>
+<a href="../../../../index.html">HOME</a>
+<a href="../../../Contact_Us/index.html">Contact us</a>
+
+</div>
+
+</header>
+
+
+<div class="main_vid">
+<h3 id="ep_name">Demon Slayer: Kimetsu no Yaiba</h3>
+
+
+<center>
+<iframe src="https://gogoanime.org.es/streaming.php?slug=kimetsu-no-yaiba-episode-1" frameborder="0" class="vid" id="vid" scrolling="no" allowfullscreen></iframe>
+</center>
+
+<center>
+<a id="pre_btn" onclick="pre_ep_change();">Previous Episode</a>
+<a id="nxt_btn" onclick="nxt_ep_change();">Next Episode</a>
+</center>
+</div>
+
+<p id='pg'></p>
+
+<div class="main_epbtn">
+<a id="ep1" onclick="ep_change(1)">1</a><br>
+<a id="ep2" onclick="ep_change(2)">2</a><br>
+<a id="ep3" onclick="ep_change(3)">3</a><br>
+<a id="ep4" onclick="ep_change(4)">4</a><br>
+<a id="ep5" onclick="ep_change(5)">5</a><br>
+<a id="ep6" onclick="ep_change(6)">6</a><br>
+<a id="ep7" onclick="ep_change(7)">7</a><br>
+<a id="ep8" onclick="ep_change(8)">8</a><br>
+<a id="ep9" onclick="ep_change(9)">9</a><br>
+<a id="ep10" onclick="ep_change(10)">10</a><br>
+<a id="ep11" onclick="ep_change(11)">11</a><br>
+<a id="ep12" onclick="ep_change(12)">12</a><br>
+<a id="ep13" onclick="ep_change(13)">13</a><br>
+<a id="ep14" onclick="ep_change(14)">14</a><br>
+<a id="ep15" onclick="ep_change(15)">15</a><br>
+<a id="ep16" onclick="ep_change(16)">16</a><br>
+<a id="ep17" onclick="ep_change(17)">17</a><br>
+<a id="ep18" onclick="ep_change(18)">18</a><br>
+<a id="ep19" onclick="ep_change(19)">19</a><br>
+<a id="ep20" onclick="ep_change(20)">20</a><br>
+<a id="ep21" onclick="ep_change(21)">21</a><br>
+<a id="ep22" onclick="ep_change(22)">22</a><br>
+<a id="ep23" onclick="ep_change(23)">23</a><br>
+<a id="ep24" onclick="ep_change(24)">24</a><br>
+<a id="ep25" onclick="ep_change(25)">25</a><br>
+<a id="ep26" onclick="ep_change(26)">26</a>
+</div>
+
+<footer>
+
+<h5>This website is Made By: snragul</h5>
+
+</footer>
+
+<script>
+var max_ep=12;
+var cur_epid="ep1";
+var cur_epidvar=document.getElementById("ep1");
+cur_epidvar.style.backgroundColor="red";
+
+function pre_ep_change(){
+if(max_check()){
+var cur_ep=parseInt(cur_epid.slice(2,));
+var tpre_ep=cur_ep-1;
+ep_change(tpre_ep);
+}
+else{
+}
+}
+
+function nxt_ep_change(){
+if(max_check()){
+var cur_ep=parseInt(cur_epid.slice(2,));
+var tnxt_ep=cur_ep+1;
+ep_change(tnxt_ep);
+}
+else{
+}
+}
+
+function max_check(){
+if(max_ep>=parseInt(cur_epid.slice(2,))){
+return "True";
+}
+else{
+return "False";
+}
+}
+
+function ep_change(ep_no){
+pre_epid=cur_epid;
+cur_epid="ep"+ep_no;
+
+var cur_epidvar=document.getElementById(cur_epid);
+var pre_epidvar=document.getElementById(pre_epid);
+
+
+var vid=document.getElementById('vid');
+vid.setAttribute('src','https://gogoanime.org.es/streaming.php?slug=kimetsu-no-yaiba-episode-'+cur_epid.slice(2,));
+
+
+
+pre_epidvar.style.backgroundColor="black";
+cur_epidvar.style.backgroundColor="red";
+document.getElementById("ep_name").innerHTML="Demon Slayer: Kimetsu no Yaiba "+cur_epid.slice(2,);
+}
+
+</script>
+
+</body>
+
+</html>
